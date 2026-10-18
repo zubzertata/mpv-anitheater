@@ -1,11 +1,11 @@
-# 🎬 MPV Custom Build v1.0 — Auto Subtitle Translator, Bilingual Dual-Subs, GLSL Upscaling Shaders & Spatial Audio Suite
+# 🎬 mpv-anitheater v1.0 — Anime, K-Drama & Cinema Media Suite (Auto Translator, Dual-Subs, GLSL Shaders & 3D Spatial Audio)
 
 ![Version](https://img.shields.io/badge/release-v1.0.0-00d4ff?style=for-the-badge)
 ![Platform](https://img.shields.io/badge/platform-Windows%20%7C%20macOS%20%7C%20Linux-22c55e?style=for-the-badge)
 ![MPV](https://img.shields.io/badge/mpv-%3E%3D0.37.0-a855f7?style=for-the-badge)
 ![License](https://img.shields.io/badge/license-MIT-f59e0b?style=for-the-badge)
 
-A high-performance, cross-platform **MPV media player configuration and custom build (`v1.0`)** engineered for **Anime, Movies, TV Series, and K-Dramas**. Featuring **built-in automatic subtitle translation**, **smart bilingual dual subtitles**, **9 GPU-accelerated GLSL upscaling profiles** (*ArtCNN, FSRCNNX, SSimSuperRes, Anime4K, AMD CAS*), **virtual surround sound** (*Dolby Atmos, DTS:X, Binaural BS2B*), an **interactive 6-band graphic equalizer**, **Volume Boost**, and a sleek, customizable **UOSC glass interface**.
+**mpv-anitheater** is a high-performance, cross-platform media player suite engineered specifically for **Anime, Asian dramas (K-Dramas), and Cinema lovers**. It features **built-in real-time subtitle translation into 16 languages**, **smart bilingual dual subtitles**, **9 GPU-accelerated GLSL upscaling profiles** (*ArtCNN, FSRCNNX, SSimSuperRes, Anime4K, AMD CAS*), **studio-grade 3D spatial audio** (*Dolby Atmos, DTS:X, BS2B*), an **interactive 6-band graphic equalizer**, **Volume Boost**, and a customized **UOSC glass interface**.
 
 ---
 
@@ -117,8 +117,8 @@ brew install ffmpeg
 Copy the contents of the `portable_config` folder into `~/.config/mpv/`:
 ```bash
 # Clone the repository
-git clone https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git
-cd YOUR_REPO_NAME
+git clone https://github.com/zubzertata/mpv-anitheater.git
+cd mpv-anitheater
 
 # Create the MPV config directory and copy all files
 mkdir -p ~/.config/mpv
@@ -150,8 +150,8 @@ Install `mpv`, `ffmpeg`, and `curl` using your distribution's package manager:
 #### Step 2: Install the Configuration Files
 Copy the contents of `portable_config` into `~/.config/mpv/`:
 ```bash
-git clone https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git
-cd YOUR_REPO_NAME
+git clone https://github.com/zubzertata/mpv-anitheater.git
+cd mpv-anitheater
 
 mkdir -p ~/.config/mpv
 cp -r portable_config/* ~/.config/mpv/
