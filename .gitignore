@@ -1,0 +1,15 @@
+# Runtime caches & watch history
+portable_config/cache/
+portable_config/watch_later/
+portable_config/uosc_history.json
+
+# Heavy external binaries (downloaded via helper script or system package manager)
+*.exe
+!portable_config/scripts/uosc/bin/ziggy-windows.exe
+*.dll
+*.com
+
+# OS metadata
+.DS_Store
+Thumbs.db
+desktop.ini
